@@ -1,0 +1,281 @@
+@media (max-width:1279px) {
+    .container {
+        padding: 0 15px;
+        max-width: 1090px;
+    }
+
+    .hero-wrapper h1 {
+        font-size: 38px;
+        width: 370px;
+    }
+
+    .hero-wrapper p {
+        width: 370px;
+    }
+
+    .hero-action {
+        gap: 10px;
+    }
+
+    .large-btn span:nth-child(2) {
+        font-size: 26px;
+    }
+
+    .large-btn span:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .large-btn {
+        padding: 30px;
+    }
+
+    .info-title h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1023px) {
+    .header {
+        padding: 20px 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .col-2 {
+        width: 33.3%;
+        padding: 15px;
+    }
+
+    .hero {
+        padding: unset;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-action img {
+        margin-top: unset;
+    }
+
+    .hero-wrapper {
+        align-items: unset;
+        margin: 35px 0;
+    }
+
+    .hero-action {
+        align-items: unset;
+        flex-direction: column;
+    }
+
+    .hero-wrapper h1 {
+        width: unset;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .hero-wrapper p {
+        width: unset;
+        text-align: center;
+    }
+
+    .large-btn {
+        width: 50%;
+    }
+
+    .large-btn span:nth-child(2) {
+        font-size: 32px;
+    }
+
+    .large-btn span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .benefits-container .col-6 {
+        width: 100%;
+    }
+
+    .advantage-info {
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width:900px) {
+    .col-3 {
+        width: 50%;
+    }
+
+    .inner-box {
+        text-align: center;
+        gap: 5px;
+    }
+
+    .inner-box p {
+        padding-bottom: 0;
+        font-size: 14px;
+    }
+
+    .inner-box h2 {
+        font-size: 30px;
+    }
+
+    .benefits-box {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+}
+
+
+@media (max-width:700px) {
+
+    .nav {
+        display: none;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .static {
+        position: unset !important;
+    }
+
+    .large-btn span:nth-child(2) {
+        font-size: 22px;
+    }
+
+    .large-btn span:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .large-btn {
+        padding: 20px;
+    }
+
+    .footer-wrapper {
+        gap: 30px;
+    }
+
+    .hero-wrapper h1 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .hero-wrapper p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .advantage-info p {
+        font-size: 12px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    .content-more {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .content-more button {
+        padding: 10px 80px;
+    }
+
+    .content-more h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-flow: column-reverse
+    }
+
+    .footer-info {
+        text-align: center;
+    }
+
+    .footer-text {
+        justify-content: space-between;
+    }
+
+    .input {
+        margin-bottom: 0;
+    }
+
+    .email-info {
+        gap: 0;
+    }
+
+    .box-wrapper {
+        gap: 3px;
+    }
+
+    .box-wrapper span {
+        font-size: 12px;
+    }
+
+    .box-wrapper h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:470px) {
+    .col-2 {
+        width: 50%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .large-btn span:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero-wrapper p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .advantage-info p {
+        font-size: 10px;
+    }
+
+    .inner-box p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .inner-box h2 {
+        font-size: 26px;
+    }
+
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-desc {
+        justify-content: space-between;
+    }
+
+    .footer-email button {
+        padding: 4px 148px;
+    }
+
+}
